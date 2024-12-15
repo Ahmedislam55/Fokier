@@ -1,0 +1,193 @@
+@media screen and (min-width: 0px) and (max-width: 700px) {
+    .layer-content h2 {
+        font-size: 40px;
+    }
+
+    .navbar {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .about {
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        margin: 30px 0px;
+    }
+
+    .about .border {
+        width: 80%;
+    }
+
+    .about .caption {
+        width: 80%;
+        margin-top: 20px;
+    }
+
+    .lists li {
+        font-size: 15px;
+    }
+
+    .about button {
+        font-size: 15px;
+    }
+
+    .service .members {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .service .members .member {
+        width: 50%;
+        text-align: center;
+        margin: 20px;
+        transition: all 1s;
+    }
+
+    .portfolio .photos .photo {
+        width: 90%;
+    }
+
+    .icon {
+        width: 25%;
+        margin: 0px;
+        text-align: center;
+    }
+
+    .icon h4 {
+        font-size: 15px;
+    }
+
+    .icon h3 {
+        font-size: 25px;
+    }
+
+    .icon i {
+        font-size: 25px;
+    }
+
+    .blog .countiers {
+        flex-wrap: wrap;
+    }
+
+    .blog .countiers .countier {
+        width: 80%;
+        background-color: #fff;
+        margin: 20px;
+    }
+
+    .container {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 701px) and (max-width: 992px) {
+    .nav {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .nav .items a {
+        font-size: 15px;
+    }
+
+    .layer-content h2 {
+        font-size: 40px;
+    }
+
+    .about {
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        margin: 30px 0px;
+    }
+
+    .about .border {
+        width: 80%;
+    }
+
+    .about .caption {
+        width: 80%;
+        margin-top: 20px;
+    }
+
+    .lists li {
+        font-size: 15px;
+    }
+
+    .about button {
+        font-size: 20px;
+    }
+
+    .service .members {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .service .members .member {
+        width: 50%;
+        margin: 0px;
+    }
+
+    .portfolio .photos .photo {
+        width: 40%;
+    }
+
+    .icon h4 {
+        font-size: 18px;
+    }
+
+    .blog .countiers {
+        flex-wrap: wrap;
+    }
+
+    .blog .countiers .countier {
+        width: 70%;
+        background-color: #fff;
+        margin: 20px;
+    }
+
+    .container {
+        width: 70%;
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1500px) {
+    .about .border {
+        width: 40%;
+        border-radius: 15px;
+    }
+
+    .about .caption {
+        width: 40%;
+        margin-top: 20px;
+    }
+
+    .about .caption p {
+        font-size: 15px;
+    }
+
+    .lists li {
+        font-size: 13px;
+    }
+
+    .service .members {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .service .members .member {
+        width: 33%;
+        margin: 0px;
+    }
+
+    .blog .countiers {
+        flex-wrap: wrap;
+    }
+
+    .blog .countiers .countier {
+        width: 40%;
+        background-color: #fff;
+        margin: 20px;
+    }
+}
